@@ -1,2 +1,2 @@
-# Send-EmailMessage
-A PowerShell Script to Send Automated Email Messages to One or More Recipients, via the Microsoft Graph API.
+# Send-EmailAlertMessage
+A PowerShell Script to Send Automated Email Alert Messages to One or More Recipients, via the Microsoft Graph API.
