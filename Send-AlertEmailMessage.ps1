@@ -1,5 +1,5 @@
 ﻿ 
- function Send-AlertMessage {
+ function Send-EmailAlertMessage {
  [CmdletBinding()]
     param(
         [string]$ClientId = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
@@ -120,4 +120,4 @@ $Recipients += "Recipient@domain.com"
 #$CCRecipients = ("CCRecipient1@domain.com","CCRecipient2@domain.com")
 #$BCCRecipients = ("BCCRecipient1@domain.com","BCCRecipient1@domain.com")
 
-Send-AlertMessage -EmailAddress $Recipients -CCAddress $CCRecipients -BCCAddress $BCCRecipients
+Send-EmailAlertMessage -EmailAddress $Recipients -CCAddress $CCRecipients -BCCAddress $BCCRecipients
